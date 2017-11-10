@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         guard let image = UIImage(named: name) else { return }
         bubbleImageView.image = image
             .resizableImage(withCapInsets: 
-                UIEdgeInsetsMake(17, 30, 17, 30),
+                UIEdgeInsetsMake(17, 21, 17, 21),
                                     resizingMode: .stretch)
             .withRenderingMode(.alwaysTemplate)
     }
